@@ -1,0 +1,239 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+body {
+    background-image: url("/image/spabg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5px;
+   
+}
+.header h1, p{
+    margin-left: 10px;
+}
+.section {
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 60vh;
+    margin: 5px;
+    width: 120vh;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 6px;
+}
+.section h2 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.experiment {
+    display: flex;
+    color: white;
+    border-radius: 5px;
+}
+.Loginz {
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: solid black 2px;
+    height: 52vh;
+    margin: 2px 2px 0px 100px;
+    padding: 20px;
+    height: 60vh;
+    width: 60vh;
+}
+.Loginz h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.Loginz .input-box {
+    margin: 5px;
+    padding: 5px;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(103, 93, 93, 0.2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: #827c7c;
+    padding: 20px 45px 20px 20px;
+
+}
+.Loginz .remember-forgot {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline
+}
+.Loginz .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(124, 113, 113, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.Loginz .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.proj h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.devz {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+.devs img {
+    height: 200px;
+    width: 200px;
+}
+.Loginzz {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    margin: 0px 500px 0px 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+.Loginzz h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.Loginzz .input-box {
+    margin: 2px;
+    padding: 5px;
+}
+.Loginzz .remember-forgot {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14.5px;
+    margin: 15px 0 15px;
+}
+.Loginzz .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(124, 113, 113, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.Loginzz .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.header1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.header1 h1, p{
+    margin-left: 10px;
+}
+.drroar {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgba(0, 0, 0, 0.8);
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: red;
+    padding: 2px;
+}
+.drroarr {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, 50%);
+    background: rgba(0, 0, 0, 0.8);
+    width: 25%;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: red;
+    padding: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input-box i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: translate(10%, 59%);
+    border-radius: 50%;
+
+}
+.input-box i:hover {
+    color: antiquewhite;
+}
